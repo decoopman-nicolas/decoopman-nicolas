@@ -223,9 +223,7 @@ nav ul li:hover {
 	
 }
 
-.Pageglobale .formationdev #tablette {/* Image oiseau dev responsive  */
-	display: none;
-}
+
 
 .Pageglobale .formationdev {
 	display: flex;
@@ -332,6 +330,7 @@ nav ul li:hover {
 	border-left: 2px dotted black;
 	display: inline-block;
 	height: auto;
+
 	margin-top: 2%;
 }
 
@@ -339,6 +338,7 @@ nav ul li:hover {
 	border-left: 2px dotted black;
 	display: inline-block;
 	height: auto;
+	
 	margin-top: 2%;
 }
 
@@ -367,9 +367,11 @@ nav ul li:hover {
 	max-height: auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
-	border-spacing: 20%;
+	padding-right: 2%;
+	
 	
 }
 
@@ -378,9 +380,12 @@ nav ul li:hover {
 	max-height: auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
-	border-spacing: 20%;
+	padding-right: 2%;
+	
+	
 }
 
 
@@ -389,9 +394,12 @@ nav ul li:hover {
 	max-height: auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
-	border-spacing: 20%;
+	padding-right: 2%;
+	
+	
 }
 
 
@@ -400,85 +408,288 @@ nav ul li:hover {
 	max-height: auto;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
+	justify-content: center;
 	font-size: 0.8vw;
 	list-style-type: none;
-	border-spacing: 20%;
+	
 }
 
-
-.contacts {
-	font-family: 'Oswald', sans-serif;
-	background-image: url(pictures/photo3.jpg); /* rajout image de fond contacts  */
-	background-position: left;
-	background-size: 110%;
-	background-repeat: no-repeat;	
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-bottom: 2%;
-	margin-top: 2%;
-	height: 650px;
-	position: relative;
+.Pageglobale .contacts {
+	background-image: url(pictures/Photo3.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-bottom: 4%;
+	margin-top: 4%;
 	
+}
+
+.Pageglobale .contacts h4 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5vw;
+	text-transform: uppercase;	
+	text-align: center;
+	border-bottom: none;
+
 }	
 
 
-.contacts .carte img {
-	position: absolute;
-	width: 30%;
-	height: Auto;
-	left: 4em;
-	top: em;
-}
-
-
-.contacts h1 {
-	text-align: left;
-	font-family: 'Oswald', sans-serif;
-	text-transform: uppercase;
-	position: absolute;
-	top: 25%;
-	left: 37%;
-	font-size: 200%; 
-	color: white;
-	
-}
-
-.contacts .textecontacts {
-	position: absolute;
-	top: 40%;
-	left: 37%;
+.Pageglobale .contacts .textecontacts {
+	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 100%; 
-	color: white;
-	border-top: 1px solid white;
-	padding-top: 2%;
-}
+	text-transform: uppercase;
+	font-size: 1vw; 
+	color: black;
+
+	
+}	
 
 
 
 footer #logos {
 	display: flex; /* Aligner les éléments sur une même ligne  */
-	justify-content: space-between;
+	justify-content: space-between ;
 	padding: 0% 2%; /* marge bord */
 	margin-left: 2%; 
 	margin-right: 2%;
 	list-style-type: none; /* Enlever les puces des listes */
-	margin-left: 20px;
-	font-size: 18px;
-	color: white;
 	border-top: 2px solid black;
+	padding-top: 2%;
+	
 }
-
 
 footer #logos img {
+	
 	width: 60px;
 	height: 60px;
-	margin-top: 30%;
+	margin-top: 5%;
 	border-radius: 50%; /* arrondir image */
-	justify-content: space-between
+	
+}	
+
+@media screen and (max-width: 1440px) {
+	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 7em; /* décalage texte haut */
+		left: 24.4em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 31em; /* décalage texte haut */
+		left: 109.7em; /* décalage texte avec h1*/
+	}
+
+	
+	.Pageglobale header h1 {
+		top: 5em; /* décalage texte haut */
+		font-size: 4vw;
+	}
+	
+	
 }
 
+@media screen and (max-width: 1024px) {
+	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 7.5em; /* décalage texte haut */
+		left: 24.4em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 32.3em; /* décalage texte haut */
+		left: 109.7em; /* décalage texte avec h1*/
+	}
+
+	
+	.Pageglobale header h1 {
+		top: 5.3em; /* décalage texte haut */
+		font-size: 4vw;
+	}
+	
+	nav .profile img {
+		width: 30px; /* Largeur image */
+		height: 30px; /* hauteur image */
+		border-radius: 50%; /* arrondir l'image */
+	}
+	
+	
+	nav #Simplon {
+		font-size: 12px; /*Taille simplon 2022*/
+	}
+	
+	nav #menu {
+		font-size: 14px; /* taille police */
+	}
+
+	footer #logos img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.Pageglobale .cv {
+		padding-right: 10%;
+	}
+	
+
+	.Pageglobale .cv #separation3 {
+		height: 12em;
+	}
 
 
+	.Pageglobale .cv .texteexperience {
+		padding-right: 5%;
+		
+		
+	}
+	
+	.Pageglobale .cv .texteformation {
+		padding-right: 5%;
+		
+		
+	}
+	
+	
+	.Pageglobale .cv .textelogiciels {
+		padding-right: 5%;
+		
+		
+	}
+	
+	
+	.Pageglobale .cv .texteinterets {
+		padding-right: 5%;
+		
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 7.5em; /* décalage texte haut */
+		left: 24.4em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 32.3em; /* décalage texte haut */
+		left: 109.7em; /* décalage texte avec h1*/
+	}
+
+	
+	.Pageglobale header h1 {
+		top: 5.3em; /* décalage texte haut */
+		font-size: 4vw;
+	}
+	
+	nav .profile img {
+		width: 30px; /* Largeur image */
+		height: 30px; /* hauteur image */
+		border-radius: 50%; /* arrondir l'image */
+	}
+	
+	
+	nav #Simplon {
+		font-size: 10px; /*Taille simplon 2022*/
+	}
+	
+	nav #menu {
+		font-size: 10px; /* taille police */
+	}
+
+	footer #logos img {
+		width: 10px;
+		height: 10px;
+	}
+
+	.Pageglobale .cv {
+		padding-right: 10%;
+	}
+	
+
+	.Pageglobale .cv #separation3 {
+		height: 9em;
+	}
 
 
+	.Pageglobale .cv .texteexperience {
+		padding-right: 5%;
+	}
+	
+	.Pageglobale .cv .texteformation {
+		padding-right: 5%;
+	}
+	
+	
+	.Pageglobale .cv .textelogiciels {
+		padding-right: 5%;
+	}
+	
+	
+	.Pageglobale .cv .texteinterets {
+		padding-right: 5%;
+		
+	}
+
+	.Pageglobale .cv {
+		display: flex;
+		justify-content: center;
+		height: auto;
+		border-bottom: 2px solid black;
+		background-color: white;
+		padding-right: 5%;
+		padding-left: 0%;
+		padding-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	nav {
+		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
+	}
+	
+	nav .profile img {
+		width: 20px; /* Largeur image */
+		height: 20px; /* hauteur image */
+		border-radius: 50%; /* arrondir l'image */
+	}
+	
+	nav #Simplon {
+		font-size: 10px; /*Taille simplon 2022*/
+		
+	}
+	
+	nav #menu {
+		display: none;
+	}
+	
+	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 9em; /* décalage texte haut */
+		left: 24.3em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 38em; /* décalage texte haut */
+		left: 109.4em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h1 {
+		top: 6.2em; /* décalage texte haut */
+		font-size: 4vw;
+	}
+	
+	
+}
