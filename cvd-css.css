@@ -491,7 +491,7 @@ footer #logos img {
 	
 }
 
-@media screen and (max-width: 1028px) {
+@media screen and (min-width: 967px) and (max-width:1053px) {
 	
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
@@ -568,6 +568,7 @@ footer #logos img {
 	}
 
 }
+
 
 @media screen and (min-width: 800px)  and (max-width: 966px){
 	
@@ -650,8 +651,6 @@ footer #logos img {
 		padding-bottom: 5%;
 	}
 }
-
-
 
 
 @media screen and (min-width: 420px)  and (max-width: 799px){
@@ -740,45 +739,3 @@ footer #logos img {
 
 
 
-@media screen and (max-width: 320px) {
-	nav {
-		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
-	}
-	
-	nav .profile img {
-		width: 20px; /* Largeur image */
-		height: 20px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
-	}
-	
-	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
-		
-	}
-	
-	nav #menu {
-		display: none;
-	}
-	
-	
-	.Pageglobale header h4 {
-		font-size: 2.5vw;
-		top: 9em; /* décalage texte haut */
-		left: 24.3em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 38em; /* décalage texte haut */
-		left: 109.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h1 {
-		top: 6.2em; /* décalage texte haut */
-		font-size: 4vw;
-	}
-	
-	
-}
