@@ -569,24 +569,24 @@ footer #logos img {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 800px)  and (max-width: 966px){
 	
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 7.5em; /* décalage texte haut */
+		top: 7.3em; /* décalage texte haut */
 		left: 24.4em; /* décalage texte avec h1*/
 	}
 	
 	
 	.Pageglobale header h6 {
 		font-size: 0.7vw;
-		top: 32.3em; /* décalage texte haut */
+		top: 32em; /* décalage texte haut */
 		left: 109.7em; /* décalage texte avec h1*/
 	}
 
 	
 	.Pageglobale header h1 {
-		top: 5.3em; /* décalage texte haut */
+		top: 5.1em; /* décalage texte haut */
 		font-size: 4vw;
 	}
 	
@@ -606,8 +606,8 @@ footer #logos img {
 	}
 
 	footer #logos img {
-		width: 10px;
-		height: 10px;
+		width: 30px;
+		height: 30px;
 	}
 
 	.Pageglobale .cv {
@@ -651,7 +651,94 @@ footer #logos img {
 	}
 }
 
-@media screen and (max-width: 425px) {
+
+
+
+@media screen and (min-width: 420px)  and (max-width: 799px){
+	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 7.5em; /* décalage texte haut */
+		left: 24.4em; /* décalage texte avec h1*/
+	}
+	
+	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 32.3em; /* décalage texte haut */
+		left: 109.7em; /* décalage texte avec h1*/
+	}
+
+	
+	.Pageglobale header h1 {
+		top: 5.3em; /* décalage texte haut */
+		font-size: 4vw;
+	}
+	
+	nav .profile img {
+		width: 20px; /* Largeur image */
+		height: 20px; /* hauteur image */
+		border-radius: 50%; /* arrondir l'image */
+	}
+	
+	
+	nav #Simplon {
+		font-size: 10px; /*Taille simplon 2022*/
+	}
+	
+	nav #menu {
+		display: none;
+	}
+
+	footer #logos img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.Pageglobale .cv {
+		padding-right: 10%;
+	}
+	
+
+	.Pageglobale .cv #separation3 {
+		height: 9em;
+	}
+
+
+	.Pageglobale .cv .texteexperience {
+		padding-right: 5%;
+	}
+	
+	.Pageglobale .cv .texteformation {
+		padding-right: 5%;
+	}
+	
+	
+	.Pageglobale .cv .textelogiciels {
+		padding-right: 5%;
+	}
+	
+	
+	.Pageglobale .cv .texteinterets {
+		padding-right: 5%;
+		
+	}
+
+	.Pageglobale .cv {
+		display: flex;
+		justify-content: center;
+		height: auto;
+		border-bottom: 2px solid black;
+		background-color: white;
+		padding-right: 5%;
+		padding-left: 0%;
+		padding-bottom: 5%;
+	}
+}
+
+
+
+@media screen and (max-width: 320px) {
 	nav {
 		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
 	}
