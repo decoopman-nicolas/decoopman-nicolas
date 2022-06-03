@@ -491,7 +491,7 @@ footer #logos img {
 	
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1028px) {
 	
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
@@ -655,7 +655,9 @@ footer #logos img {
 
 
 @media screen and (min-width: 420px)  and (max-width: 799px){
-	
+	nav {
+		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
+	}
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
 		top: 7.5em; /* décalage texte haut */
