@@ -415,34 +415,35 @@ nav ul li:hover {
 }
 
 .Pageglobale .contacts {
-	background-image: url(pictures/Photo3.png);
+	background-image: url(pictures/Photo3.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	margin-bottom: 4%;
 	margin-top: 4%;
-	
-}
-
-.Pageglobale .contacts h4 {
-	font-family: 'Oswald', sans-serif;
-	font-size: 2.5vw;
-	text-transform: uppercase;	
-	text-align: center;
-	border-bottom: none;
-
 }	
+
+.Pageglobale .contacts h1 {
+	text-align:left;
+	padding-bottom: 30%;
+	position: relative;
+} 
 
 
 .Pageglobale .contacts .textecontacts {
-	text-align: center;
+	position: absolute;
 	font-family: 'Roboto', sans-serif;
-	text-transform: uppercase;
+	
 	font-size: 1vw; 
 	color: black;
-
-	
+	text-align: center;
+	left: 60em;
+	top: 174em;
+	border-top: 2px dotted black;
+	border-bottom: 2px dotted black;
+	padding-top: 2%;
 }	
+
 
 
 
@@ -492,6 +493,9 @@ footer #logos img {
 		height: 15em;
 	}
 	
+		
+
+
 }
 
 @media screen and (min-width: 967px) and (max-width:1053px) {
@@ -696,13 +700,16 @@ footer #logos img {
 	
 	
 	.Pageglobale .contacts .textecontacts {
-		text-align: center;
-		font-family: 'Roboto', sans-serif;
-		text-transform: uppercase;
-		font-size: 1vw; 
+		position: absolute;
+		font-family: 'Roboto', sans-serif;	
+		font-size: 1.4vw; 
 		color: black;
-	
-		
+		text-align: center;
+		left: 40em;
+		top: 139em;
+		border-top: 1px dotted black;
+		border-bottom: 1px dotted black;
+		padding-top: 3%;
 	}	
 	
 
@@ -876,26 +883,29 @@ footer #logos img {
 	}
 	
 	
-
 	.Pageglobale .contacts {
 		background-image: none;
-		background-color: black;
-	}
-	
-	.Pageglobale .contacts h4 {
-		font-size: 3vw;
-		padding-top: 3%;
-	
 	}	
+	
+	.Pageglobale .contacts h1 {
+		text-align:left;
+		padding-bottom: 0%;
+		position: initial;
+	} 
 	
 	
 	.Pageglobale .contacts .textecontacts {
+		position: initial;
 		font-size: 1.5vw; 
-		color: white;
-		padding-bottom: 4%;
-	
-		
+		color: black;
+		text-align: center;
+		border-top: 0px dotted black;
+		border-bottom: 0px dotted black;
+		padding-top: 0%;
+		top: 0em;
+		left: 0em;
 	}	
+
 
 	footer #logos {
 		border-top: 1px solid black;
@@ -1074,23 +1084,26 @@ footer #logos img {
 
 	.Pageglobale .contacts {
 		background-image: none;
-		background-color: black;
-	}
-	
-	.Pageglobale .contacts h4 {
-		font-size: 3vw;
-		padding-top: 3%;
-	
 	}	
+	
+	.Pageglobale .contacts h1 {
+		text-align:left;
+		padding-bottom: 0%;
+		position: initial;
+	} 
 	
 	
 	.Pageglobale .contacts .textecontacts {
+		position: initial;
 		font-size: 1.5vw; 
-		color: white;
-		padding-bottom: 4%;
-	
-		
-	}	
+		color: black;
+		text-align: center;
+		border-top: 0px dotted black;
+		border-bottom: 0px dotted black;
+		padding-top: 0%;
+		top: 0em;
+		left: 0em;
+	}		
 
 	footer #logos {
 		border-top: 1px solid black;
@@ -1267,23 +1280,26 @@ footer #logos img {
 
 	.Pageglobale .contacts {
 		background-image: none;
-		background-color: black;
-	}
-	
-	.Pageglobale .contacts h4 {
-		font-size: 3vw;
-		padding-top: 3%;
-	
 	}	
+	
+	.Pageglobale .contacts h1 {
+		text-align:left;
+		padding-bottom: 0%;
+		position: initial;
+	} 
 	
 	
 	.Pageglobale .contacts .textecontacts {
+		position: initial;
 		font-size: 1.5vw; 
-		color: white;
-		padding-bottom: 4%;
-	
-		
-	}	
+		color: black;
+		text-align: center;
+		border-top: 0px dotted black;
+		border-bottom: 0px dotted black;
+		padding-top: 0%;
+		top: 0em;
+		left: 0em;
+	}		
 
 	footer #logos {
 		border-top: 1px solid black;
@@ -1460,23 +1476,26 @@ footer #logos img {
 
 	.Pageglobale .contacts {
 		background-image: none;
-		background-color: black;
-	}
-	
-	.Pageglobale .contacts h4 {
-		font-size: 3vw;
-		padding-top: 3%;
-	
 	}	
+	
+	.Pageglobale .contacts h1 {
+		text-align:left;
+		padding-bottom: 0%;
+		position: initial;
+	} 
 	
 	
 	.Pageglobale .contacts .textecontacts {
+		position: initial;
 		font-size: 1.5vw; 
-		color: white;
-		padding-bottom: 4%;
-	
-		
-	}	
+		color: black;
+		text-align: center;
+		border-top: 0px dotted black;
+		border-bottom: 0px dotted black;
+		padding-top: 0%;
+		top: 0em;
+		left: 0em;
+	}		
 
 	footer #logos {
 		border-top: 1px solid black;
