@@ -1,240 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap'); /* lien google fonts */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap');
+/* lien google fonts */
 
 nav {
-	font-family: 'Oswald', sans-serif; /* typo google fonts  */
-	display: flex; /* Aligner les éléments sur une même ligne  */
-	flex-wrap: wrap; /* mets le texte à la ligne si page réduite */
-	justify-content: space-between; /* élements étirés sur l'ensemble de largeur  */
-	align-items: center; /* Aligner photo profil et menu */
-	background-color: black; /* couleur de fond */
-	padding: 0% 2%; /* marge interne élements bord gauche et droit */
-	margin-left: 2%; /* marge externe page */
-	margin-right: 2%; /* marge externe page */
-	position: sticky; /* barre de navigation qui reste sur le haut meme en défilant */
-	top: 0; /* position barre de navigation */
-	z-index: 10;/* Mettre la barre de Nav au premier plan */
-	
+	font-family: 'Oswald', sans-serif;
+	/* typo google fonts  */
+	display: flex;
+	/* Aligner les éléments sur une même ligne  */
+	flex-wrap: wrap;
+	/* mets le texte à la ligne si page réduite */
+	justify-content: space-between;
+	/* élements étirés sur l'ensemble de largeur  */
+	align-items: center;
+	/* Aligner photo profil et menu */
+	background-color: black;
+	/* couleur de fond */
+	padding: 0% 2%;
+	/* marge interne élements bord gauche et droit */
+	margin-left: 2%;
+	/* marge externe page */
+	margin-right: 2%;
+	/* marge externe page */
+	position: sticky;
+	/* barre de navigation qui reste sur le haut meme en défilant */
+	top: 0;
+	/* position barre de navigation */
+	z-index: 10;
+	/* Mettre la barre de Nav au premier plan */
 }
 
-
 nav .profile {
-	display: flex; /* Aligner les éléments sur une même ligne */
-	align-items: center; /* centrer le titre et l'image */
+	display: flex;
+	/* Aligner les éléments sur une même ligne */
+	align-items: center;
+	/* centrer le titre et l'image */
 }
 
 nav .profile img {
-	width: 40px; /* Largeur image */
-	height: 40px; /* hauteur image */
-	border-radius: 50%; /* arrondir l'image */
+	width: 40px;
+	/* Largeur image */
+	height: 40px;
+	/* hauteur image */
+	border-radius: 50%;
+	/* arrondir l'image */
 }
 
-
 nav #Simplon {
-	margin-left: 10px; /* décalage texte bord gauche */
-	font-size: 14px; /*Taille simplon 2022*/
-	color: white; /* couleur texte */
-	position: relative;	/* élements parents (position titre h1 et h4) */
-	
+	margin-left: 10px;
+	/* décalage texte bord gauche */
+	font-size: 14px;
+	/*Taille simplon 2022*/
+	color: white;
+	/* couleur texte */
+	position: relative;
+	/* élements parents (position titre h1 et h4) */
 }
 
 nav #menu {
-	display: flex; /* Aligner les éléments sur une même ligne  */
-	list-style-type: none; /* Enlever les puces des listes */
-	margin-left: 20px; /* décalage texte bord droit */
-	font-size: 16px; /* taille police */
-	color: white; /* couleur texte */
-	text-transform: uppercase; /* mettre en majuscule */
+	display: flex;
+	/* Aligner les éléments sur une même ligne  */
+	list-style-type: none;
+	/* Enlever les puces des listes */
+	margin-left: 20px;
+	/* décalage texte bord droit */
+	font-size: 16px;
+	/* taille police */
+	color: white;
+	/* couleur texte */
+	text-transform: uppercase;
+	/* mettre en majuscule */
 }
 
 nav a {
-	color: white; /* couleur lien */
-	text-decoration: none; /* supprimer le soulignement des liens */
+	color: white;
+	/* couleur lien */
+	text-decoration: none;
+	/* supprimer le soulignement des liens */
 }
 
 nav ul li {
-	margin-left: 20px; /* espacement texte menu */
-	cursor: pointer; /* changement de pointeur */
+	margin-left: 20px;
+	/* espacement texte menu */
+	cursor: pointer;
+	/* changement de pointeur */
 	border-bottom: 1px solid black;
 }
 
 nav ul li:hover {
-	border-bottom-color: white; /* changement de couleur bordure menu */
+	border-bottom-color: white;
+	/* changement de couleur bordure menu */
 }
 
 .image {
-	
-	margin-left: 2%; /* bordure image gauche */
-	margin-right: 2%; /* bordure image droite */
-	z-index: 0;	/* Mettre l'image en arrière plan */
+	margin-left: 2%;
+	/* bordure image gauche */
+	margin-right: 2%;
+	/* bordure image droite */
+	z-index: 0;
+	/* Mettre l'image en arrière plan */
 	max-width: 100%;
 }
 
 
 .image img {
-	display: inline-block; /* Placement en ligne Image */
-	max-width: 100%; /* Adapater la largeur de l'image  */
-	margin-bottom: 0%; /* coller l'image à la barre de nav */
-	
-	
+	display: inline-block;
+	/* Placement en ligne Image */
+	max-width: 100%;
+	/* Adapater la largeur de l'image  */
+	margin-bottom: 0%;
+	/* coller l'image à la barre de nav */
 }
 
-.Pageglobale {							
-	margin: 2%;	/* Marge page */	
-	
+.Pageglobale {
+	margin: 2%;
+	/* Marge page */
 }
-
 
 .Pageglobale header {
-	margin-left: 50%; /* position titre "Nicolas DECOOPMAN photo */
+	margin-left: 50%;
+	/* position titre "Nicolas DECOOPMAN photo */
 	font-family: 'Oswald', sans-serif;
 }
-
-
 
 .Pageglobale header h4 {
-	position: absolute; /* position titre "Carte de viste" photo */
+	position: absolute;
+	/* position titre "Carte de viste" photo */
 	font-size: 2.5vw;
-	top: 6.5em; /* décalage texte haut */
-	left: 24.2em; /* décalage texte avec h1*/
+	/* viewport width unité responsive suivant la largeur du navigateur*/
+	transition: all 2s;
+	top: 6.5em;
+	/* décalage texte haut  */
+	left: 24.2em;
+	/* décalage texte avec h1*/
 	color: #636262;
-	text-transform: uppercase;
-	animation-duration: 3s;	/* durée animation */
-  	animation-name: slideh4header; /* nom animation */
-	transition: all 3s; /* changement de couleur durée */
-
-
-}
-
-@keyframes slideh4header { /* effets de Slide vers la gauche */
-	from {
-	  margin-left: 100%;
-	  width: 300%;
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
-	 
-	}
-}
-
-
-.Pageglobale header h4:hover {  /* changement de couleur h4 passage pointer */
-	color: black;
-}
-
-
-
-
-.Pageglobale header h6 {
-	position: absolute; /* position titre "Carte de viste" photo */
-	font-size: 0.7vw;
-	top: 28.6em; /* décalage texte haut */
-	left: 109.4em; /* décalage texte avec h1*/
-	color: #636262;
-	text-transform: uppercase;
-	animation-duration: 3s;	/* durée animation */
-  	animation-name: slideh4header; /* nom animation */
-	transition: all 3s; /* changement de couleur durée */
-}
-
-@keyframes slideh4header { /* effets de Slide vers la gauche */
-	from {
-	  margin-left: 100%;
-	  width: 300%;
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
-	 
-	}
-}
-
-
-.Pageglobale header h6:hover {  /* changement de couleur h4 passage pointer */
-	color: black;
-}
-
-
-.Pageglobale header h1 {
-	position: absolute; /* position titre "Nicolas DECOOPMAN" photo */
-	top: 4.6em; /* décalage texte haut */
-	font-size: 4vw;
 	text-transform: uppercase;
 	animation-duration: 3s;
-  	animation-name: slideh1header;
-	transition: all 3s; 
-	
+	/* durée animation */
+	animation-name: slideh4header;
+	/* nom animation */
+	transition: all 3s;
+	/* changement de couleur durée */
 }
 
+@keyframes slideh4header {
 
-
-@keyframes slideh1header { /* effets de Slide vers la gauche */
+	/* effets de Slide vers la gauche */
 	from {
-	  margin-left: 100%;
-	  width: 300%;
+		margin-left: 100%;
+		width: 300%;
 	}
-  
+
 	to {
-	  margin-right: 120%;
-	  width: 100%;	 
+		margin-left: 0%;
+		width: 100%;
 	}
 }
 
 
-.Pageglobale header h1:hover { /* changement de couleur h1 passage pointer */
-	color: #636262 ;
+.Pageglobale header h4:hover {
+	/* changement de couleur h4 passage pointer */
+	color: black;
 }
 
+.Pageglobale header h6 {
+	position: absolute;
+	/* position titre "Carte de viste" photo */
+	font-size: 0.7vw;
+	top: 28.6em;
+	/* décalage texte haut */
+	left: 109.4em;
+	/* décalage texte avec h1*/
+	color: #636262;
+	text-transform: uppercase;
+	animation-duration: 3s;
+	/* durée animation */
+	animation-name: slideh4header;
+	/* nom animation */
+	transition: all 3s;
+	/* changement de couleur durée */
+}
 
-.Pageglobale h1 { /* titre h1 de la page "pourquoi dev et CV */
+@keyframes slideh4header {
+
+	/* effets de Slide vers la gauche */
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%;
+	}
+}
+
+.Pageglobale header h6:hover {
+	/* changement de couleur h4 passage pointer */
+	color: black;
+}
+
+.Pageglobale header h1 {
+	position: absolute;
+	/* position titre "Nicolas DECOOPMAN" photo */
+	top: 4.6em;
+	/* décalage texte haut */
+	font-size: 4vw;
+	/* viewport width unité responsive suivant la largeur du navigateur*/
+	transition: all 2s;
+	text-transform: uppercase;
+	animation-duration: 3s;
+	animation-name: slideh1header;
+	transition: all 3s;
+}
+
+@keyframes slideh1header {
+
+	/* effets de Slide vers la gauche */
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-right: 120%;
+		width: 100%;
+	}
+}
+
+.Pageglobale header h1:hover {
+	/* changement de couleur h1 passage pointer */
+	color: #636262;
+}
+
+.Pageglobale h1 {
+	/* titre h1 de la page "pourquoi dev et CV */
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	font-size: 4vw;
-	transition: all 2s; 
+	/* viewport width unité responsive suivant la largeur du navigateur*/
+	transition: all 2s;
 }
 
-.Pageglobale h1:hover { /* changement de couleur h1 passage pointer */
+.Pageglobale h1:hover {
+	/* changement de couleur h1 passage pointer */
 	color: white;
 }
 
-
-.Pageglobale strong { /* rendu pour balise strong  */
+.Pageglobale strong {
+	/* rendu pour balise strong  */
 	font-weight: bold;
 }
 
-.Pageglobale em { /* rendu pour balaise em  */
+.Pageglobale em {
+	/* rendu pour balaise em  */
 	font-style: italic;
 }
 
-.Pageglobale mark { /* rendu pour balise mark */
-	background-color: black; color: white;
+.Pageglobale mark {
+	/* rendu pour balise mark */
+	background-color: black;
+	color: white;
 }
 
-
-.Pageglobale .formationdev  { 
-	background-image: url(pictures/photo2.png); /* Image oiseau dev   */
+.Pageglobale .formationdev {
+	background-image: url(pictures/photo2.png);
+	/* Image oiseau dev   */
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
-	
 }
-
-
 
 .Pageglobale .formationdev {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: top;
+	align-items: stretch;
 	justify-content: space-between;
 	height: auto;
 	border-bottom: 2px solid black;
 	padding-bottom: 5%;
 }
-
 
 .Pageglobale .formationdev #bordure1 {
 	height: fit-content;
@@ -242,7 +285,6 @@ nav ul li:hover {
 	border-radius: 10%;
 	border-left: 2px dotted #636262;
 }
-
 
 .Pageglobale .formationdev #bordure2 {
 	height: fit-content;
@@ -260,16 +302,14 @@ nav ul li:hover {
 	border-left: 2px dotted #636262;
 }
 
-
 .Pageglobale .formationdev h4 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5vw;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	text-align: center;
 	border-bottom: none;
 	margin-top: 0.5em;
 }
-
 
 .Pageglobale .formationdev .projetpro {
 	min-width: 15em;
@@ -280,7 +320,6 @@ nav ul li:hover {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.9vw;
 	list-style-type: square;
-	
 }
 
 .Pageglobale .formationdev .atoutsetmotivations {
@@ -294,7 +333,6 @@ nav ul li:hover {
 	list-style-type: square;
 }
 
-
 .Pageglobale .formationdev .domainenumerique {
 	min-width: 15em;
 	max-width: 25em;
@@ -306,11 +344,10 @@ nav ul li:hover {
 	list-style-type: square;
 }
 
-
 .Pageglobale .cv {
 	display: flex;
 	flex-wrap: wrap;
-	align-items: top;
+	align-items: stretch;
 	justify-content: space-between;
 	height: auto;
 	border-bottom: 2px solid black;
@@ -318,19 +355,17 @@ nav ul li:hover {
 	padding-right: 5%;
 	padding-left: 2%;
 	padding-bottom: 5%;
-	background-image: url(pictures/Photo4.jpg); /* rajout image de fond CV  */
+	background-image: url(pictures/Photo4.jpg);
+	/* rajout image de fond CV  */
 	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
 
-
-
 .Pageglobale .cv #separation1 {
 	border-left: 2px dotted black;
 	display: inline-block;
 	height: auto;
-
 	margin-top: 2%;
 }
 
@@ -338,7 +373,6 @@ nav ul li:hover {
 	border-left: 2px dotted black;
 	display: inline-block;
 	height: auto;
-	
 	margin-top: 2%;
 }
 
@@ -349,69 +383,58 @@ nav ul li:hover {
 	margin-top: 2%;
 }
 
-
 .Pageglobale .cv #grandtitre2:hover {
 	color: white;
 }
 
-
 .Pageglobale .cv h4 {
-	font-family: 'Oswald', sans-serif;	
+	font-family: 'Oswald', sans-serif;
 	font-size: 1.5vw;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	text-align: top;
 }
 
 .Pageglobale .cv .texteexperience {
-	max-width: auto;
-	max-height: auto;
+	max-width: max-content;
+	max-height: max-content;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
 	padding-right: 2%;
-	
-	
 }
 
 .Pageglobale .cv .texteformation {
-	max-width: auto;
-	max-height: auto;
+	max-width: max-content;
+	max-height: max-content;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
 	padding-right: 2%;
-	
-	
 }
-
 
 .Pageglobale .cv .textelogiciels {
-	max-width: auto;
-	max-height: auto;
+	max-width: max-content;
+	max-height: max-content;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	justify-content: left;
 	font-size: 0.8vw;
 	list-style-type: none;
 	padding-right: 2%;
-	
-	
 }
 
-
 .Pageglobale .cv .texteinterets {
-	max-width: auto;
-	max-height: auto;
+	max-width: max-content;
+	max-height: max-content;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	justify-content: center;
 	font-size: 0.8vw;
 	list-style-type: none;
-	
 }
 
 .Pageglobale .contacts {
@@ -421,117 +444,119 @@ nav ul li:hover {
 	background-size: 100%;
 	margin-bottom: 4%;
 	margin-top: 4%;
-}	
+}
 
 .Pageglobale .contacts h1 {
-	text-align:left;
+	text-align: left;
 	padding-bottom: 30%;
 	position: relative;
-} 
-
+}
 
 .Pageglobale .contacts .textecontacts {
 	position: absolute;
 	font-family: 'Roboto', sans-serif;
-	
-	font-size: 1vw; 
+	font-size: 1vw;
 	color: black;
 	text-align: center;
 	left: 60em;
-	top: 174em;
+	top: 173em;
 	border-top: 2px dotted black;
 	border-bottom: 2px dotted black;
 	padding-top: 2%;
-}	
-
-
-
+}
 
 footer #logos {
-	display: flex; /* Aligner les éléments sur une même ligne  */
-	justify-content: space-between ;
-	padding: 0% 2%; /* marge bord */
-	margin-left: 2%; 
+	display: flex;
+	/* Aligner les éléments sur une même ligne  */
+	justify-content: space-between;
+	padding: 0% 2%;
+	/* marge bord */
+	margin-left: 2%;
 	margin-right: 2%;
-	list-style-type: none; /* Enlever les puces des listes */
+	list-style-type: none;
+	/* Enlever les puces des listes */
 	border-top: 2px solid black;
 	padding-top: 2%;
-	
 }
 
 footer #logos img {
-	
 	width: 60px;
 	height: 60px;
 	margin-top: 5%;
-	border-radius: 50%; /* arrondir image */
-	
-}	
+	border-radius: 50%;
+	/* arrondir image */
+}
 
 @media screen and (max-width: 1440px) {
-	
+
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 7em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 31em; /* décalage texte haut */
-		left: 109.7em; /* décalage texte avec h1*/
+		top: 7em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
 	}
 
-	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 31em;
+		/* décalage texte haut */
+		left: 109.7em;
+		/* décalage texte avec h1*/
+	}
+
 	.Pageglobale header h1 {
-		top: 5em; /* décalage texte haut */
+		top: 5em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
 
 	.Pageglobale .cv #separation3 {
 		height: 15em;
 	}
-	
-		
-
-
 }
 
 @media screen and (min-width: 967px) and (max-width:1053px) {
-	
+
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 7.5em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 32.3em; /* décalage texte haut */
-		left: 109.7em; /* décalage texte avec h1*/
+		top: 7.5em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
 	}
 
-	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 32.3em;
+		/* décalage texte haut */
+		left: 109.7em;
+		/* décalage texte avec h1*/
+	}
+
 	.Pageglobale header h1 {
-		top: 5.3em; /* décalage texte haut */
+		top: 5.3em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
-	
+
 	nav .profile img {
-		width: 30px; /* Largeur image */
-		height: 30px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
+		width: 30px;
+		/* Largeur image */
+		height: 30px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
 	}
-	
-	
+
 	nav #Simplon {
-		font-size: 12px; /*Taille simplon 2022*/
+		font-size: 12px;
+		/*Taille simplon 2022*/
 	}
-	
+
 	nav #menu {
-		font-size: 14px; /* taille police */
+		font-size: 14px;
+		/* taille police */
 	}
 
 	footer #logos img {
@@ -539,79 +564,76 @@ footer #logos img {
 		height: 40px;
 	}
 
-
 	.Pageglobale .cv {
 		padding-right: 10%;
 	}
-	
 
 	.Pageglobale .cv #separation3 {
 		height: 12em;
 	}
 
-
 	.Pageglobale .cv .texteexperience {
 		padding-right: 3%;
-		
-		
 	}
-	
+
 	.Pageglobale .cv .texteformation {
 		padding-right: 3%;
-		
-		
 	}
-	
-	
+
 	.Pageglobale .cv .textelogiciels {
 		padding-right: 3%;
-		
-		
 	}
-	
-	
+
 	.Pageglobale .cv .texteinterets {
 		padding-right: 3%;
-		
 	}
 
+	.Pageglobale .contacts .textecontacts {
+		top: 175em;
+	}
 }
 
+@media screen and (min-width: 800px) and (max-width: 966px) {
 
-@media screen and (min-width: 800px)  and (max-width: 966px){
-	
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 7.3em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 31,9em; /* décalage texte haut */
-		left: 109.7em; /* décalage texte avec h1*/
+		top: 7.3em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
 	}
 
-	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 31.9em;
+		/* décalage texte haut */
+		left: 109.7em;
+		/* décalage texte avec h1*/
+	}
+
 	.Pageglobale header h1 {
-		top: 5.1em; /* décalage texte haut */
+		top: 5.1em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
-	
+
 	nav .profile img {
-		width: 30px; /* Largeur image */
-		height: 30px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
+		width: 30px;
+		/* Largeur image */
+		height: 30px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
 	}
-	
-	
+
 	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
+		font-size: 10px;
+		/*Taille simplon 2022*/
 	}
-	
+
 	nav #menu {
-		font-size: 11px; /* taille police */
+		font-size: 11px;
+		/* taille police */
 	}
 
 	footer #logos img {
@@ -619,34 +641,29 @@ footer #logos img {
 		height: 30px;
 	}
 
-
 	.Pageglobale .formationdev h4 {
 		font-size: 2vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .projetpro {
 		font-size: 1vw;
 		max-width: 22em;
 	}
-	
+
 	.Pageglobale .formationdev .atoutsetmotivations {
 		max-width: 22em;
 		font-size: 1vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .domainenumerique {
 		max-width: 22em;
 		font-size: 1vw;
 	}
 
-	
 	.Pageglobale .cv h4 {
 		font-size: 2.3vw;
 	}
 
-
 	.Pageglobale .cv #separation1 {
 		display: none;
 	}
@@ -655,103 +672,87 @@ footer #logos img {
 		display: none;
 	}
 
-
 	.Pageglobale .cv #separation3 {
 		display: none;
 	}
-
 
 	.Pageglobale .cv .texteexperience {
 		font-size: 1vw;
 		list-style-type: none;
 		padding-right: 0%;
-		
-		
 	}
-	
+
 	.Pageglobale .cv .texteformation {
 		font-size: 1vw;
 		padding-right: 0%;
 	}
-	
-	
+
 	.Pageglobale .cv .textelogiciels {
 		font-size: 1vw;
 		padding-right: 0%;
-		
-		
 	}
-	
-	
+
 	.Pageglobale .cv .texteinterets {
 		font-size: 1vw;
 		padding-right: 2%;
 	}
-	
-	
+
 	.Pageglobale .contacts h4 {
 		font-family: 'Oswald', sans-serif;
 		font-size: 2.5vw;
-		text-transform: uppercase;	
+		text-transform: uppercase;
 		text-align: center;
 		border-bottom: none;
-	
-	}	
-	
-	
+	}
+
 	.Pageglobale .contacts .textecontacts {
-		position: absolute;
-		font-family: 'Roboto', sans-serif;	
-		font-size: 1.4vw; 
-		color: black;
-		text-align: center;
-		left: 40em;
-		top: 139em;
-		border-top: 1px dotted black;
-		border-bottom: 1px dotted black;
-		padding-top: 3%;
-	}	
-	
-
-
-
-
+		top: 137em;
+	}
 }
 
-@media screen and (min-width: 680px)  and (max-width: 799px){
+@media screen and (min-width: 680px) and (max-width: 799px) {
+
 	nav {
-		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
-	}
-	.Pageglobale header h4 {
-		font-size: 2.5vw;
-		top: 7.2em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 31.2em; /* décalage texte haut */
-		left: 109.7em; /* décalage texte avec h1*/
+		justify-content: center;
+		/* élements étirés sur l'ensemble de largeur  */
 	}
 
-	
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 7.2em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
+	}
+
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 31.2em;
+		/* décalage texte haut */
+		left: 109.7em;
+		/* décalage texte avec h1*/
+	}
+
 	.Pageglobale header h1 {
-		top: 5.2em; /* décalage texte haut */
+		top: 5.2em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
-	
+
 	nav .profile img {
-		width: 20px; /* Largeur image */
-		height: 20px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
+		width: 20px;
+		/* Largeur image */
+		height: 20px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
 	}
-	
-	
+
 	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
+		font-size: 10px;
+		/*Taille simplon 2022*/
 	}
-	
+
 	nav #menu {
 		display: none;
 	}
@@ -760,33 +761,29 @@ footer #logos img {
 		width: 20px;
 		height: 20px;
 	}
-	
-	.Pageglobale h1 { /* titre h1 de la page "pourquoi dev et CV */
-	font-size: 5vw;
+
+	.Pageglobale h1 {
+		/* titre h1 de la page "pourquoi dev et CV */
+		font-size: 5vw;
 	}
 
-
-
-	.Pageglobale .formationdev  { 
-	background-image: none;
-	
+	.Pageglobale .formationdev {
+		background-image: none;
 	}
-
-
 
 	.Pageglobale .formationdev #bordure1 {
 		height: auto;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure2 {
 		height: auto;
 		margin-top: 1em;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure3 {
 		height: auto;
 		margin-top: 1em;
@@ -797,21 +794,19 @@ footer #logos img {
 	.Pageglobale .formationdev h4 {
 		font-size: 3.5vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .projetpro {
 		font-size: 2vw;
-		max-width: auto;
+		max-width: max-content;
 	}
-	
+
 	.Pageglobale .formationdev .atoutsetmotivations {
-		max-width: auto;
+		max-width: max-content;
 		font-size: 2vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .domainenumerique {
-		max-width: auto;
+		max-width: max-content;
 		font-size: 2vw;
 	}
 
@@ -821,11 +816,10 @@ footer #logos img {
 		padding-bottom: 5%;
 	}
 
-
 	.Pageglobale .cv {
 		justify-content: center;
 		height: auto;
-		max-width: auto;
+		max-width:max-content;
 		border-bottom: 1px solid black;
 		background-color: white;
 		padding-right: 5%;
@@ -833,11 +827,10 @@ footer #logos img {
 		padding-bottom: 5%;
 		background-image: none;
 	}
-	
+
 	.Pageglobale .cv h4 {
 		font-size: 3vw;
 	}
-
 
 	.Pageglobale .cv #separation1 {
 		display: none;
@@ -847,56 +840,48 @@ footer #logos img {
 		display: none;
 	}
 
-
 	.Pageglobale .cv #separation3 {
 		display: none;
 	}
-
 
 	.Pageglobale .cv .texteexperience {
 		font-size: 2vw;
 		list-style-type: none;
 		padding-right: 0%;
-		
-		
 	}
-	
+
 	.Pageglobale .cv .texteformation {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 20%;
 		margin-left: 20%;
 	}
-	
-	
+
 	.Pageglobale .cv .textelogiciels {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 30%;
 		margin-left: 30%;
 	}
-	
-	
+
 	.Pageglobale .cv .texteinterets {
 		font-size: 2vw;
 		padding-right: 0%;
 	}
-	
-	
+
 	.Pageglobale .contacts {
 		background-image: none;
-	}	
-	
+	}
+
 	.Pageglobale .contacts h1 {
-		text-align:left;
+		text-align: left;
 		padding-bottom: 0%;
 		position: initial;
-	} 
-	
-	
+	}
+
 	.Pageglobale .contacts .textecontacts {
 		position: initial;
-		font-size: 1.5vw; 
+		font-size: 1.5vw;
 		color: black;
 		text-align: center;
 		border-top: 0px dotted black;
@@ -904,52 +889,55 @@ footer #logos img {
 		padding-top: 0%;
 		top: 0em;
 		left: 0em;
-	}	
-
+	}
 
 	footer #logos {
 		border-top: 1px solid black;
-		
 	}
-
-
 }
 
-
-@media screen and (min-width: 521px)  and (max-width: 679px){
+@media screen and (min-width: 521px) and (max-width: 679px) {
 	nav {
-		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
+		justify-content: center;
+		/* élements étirés sur l'ensemble de largeur  */
 	}
+
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 8em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		font-size: 0.7vw;
-		top: 34.5em; /* décalage texte haut */
-		left: 109.7em; /* décalage texte avec h1*/
+		top: 8em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
 	}
 
-	
+	.Pageglobale header h6 {
+		font-size: 0.7vw;
+		top: 34.5em;
+		/* décalage texte haut */
+		left: 109.7em;
+		/* décalage texte avec h1*/
+	}
+
 	.Pageglobale header h1 {
-		top: 5.7em; /* décalage texte haut */
+		top: 5.7em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
-	
+
 	nav .profile img {
-		width: 20px; /* Largeur image */
-		height: 20px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
+		width: 20px;
+		/* Largeur image */
+		height: 20px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
 	}
-	
-	
+
 	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
+		font-size: 10px;
+		/*Taille simplon 2022*/
 	}
-	
+
 	nav #menu {
 		display: none;
 	}
@@ -958,33 +946,29 @@ footer #logos img {
 		width: 20px;
 		height: 20px;
 	}
-	
-	.Pageglobale h1 { /* titre h1 de la page "pourquoi dev et CV */
-	font-size: 5vw;
+
+	.Pageglobale h1 {
+		/* titre h1 de la page "pourquoi dev et CV */
+		font-size: 5vw;
 	}
 
-
-
-	.Pageglobale .formationdev  { 
-	background-image: none;
-	
+	.Pageglobale .formationdev {
+		background-image: none;
 	}
-
-
 
 	.Pageglobale .formationdev #bordure1 {
 		height: auto;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure2 {
 		height: auto;
 		margin-top: 1em;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure3 {
 		height: auto;
 		margin-top: 1em;
@@ -995,21 +979,19 @@ footer #logos img {
 	.Pageglobale .formationdev h4 {
 		font-size: 3.5vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .projetpro {
 		font-size: 2vw;
-		max-width: auto;
+		max-width: max-content;
 	}
-	
+
 	.Pageglobale .formationdev .atoutsetmotivations {
-		max-width: auto;
+		max-width: max-content;
 		font-size: 2vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .domainenumerique {
-		max-width: auto;
+		max-width:max-content;
 		font-size: 2vw;
 	}
 
@@ -1023,7 +1005,7 @@ footer #logos img {
 	.Pageglobale .cv {
 		justify-content: center;
 		height: auto;
-		max-width: auto;
+		max-width: max-content;
 		border-bottom: 1px solid black;
 		background-color: white;
 		padding-right: 5%;
@@ -1031,11 +1013,10 @@ footer #logos img {
 		padding-bottom: 5%;
 		background-image: none;
 	}
-	
+
 	.Pageglobale .cv h4 {
 		font-size: 3vw;
 	}
-
 
 	.Pageglobale .cv #separation1 {
 		display: none;
@@ -1055,47 +1036,40 @@ footer #logos img {
 		font-size: 2vw;
 		list-style-type: none;
 		padding-right: 0%;
-		
-		
 	}
-	
+
 	.Pageglobale .cv .texteformation {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 20%;
 		margin-left: 20%;
 	}
-	
-	
+
 	.Pageglobale .cv .textelogiciels {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 30%;
 		margin-left: 30%;
 	}
-	
-	
+
 	.Pageglobale .cv .texteinterets {
 		font-size: 2vw;
 		padding-right: 0%;
 	}
-	
-	
 
 	.Pageglobale .contacts {
 		background-image: none;
-	}	
-	
+	}
+
 	.Pageglobale .contacts h1 {
-		text-align:left;
+		text-align: left;
 		padding-bottom: 0%;
 		position: initial;
-	} 
-	
-	
+	}
+
 	.Pageglobale .contacts .textecontacts {
 		position: initial;
-		font-size: 1.5vw; 
+		font-size: 1.5vw;
 		color: black;
 		text-align: center;
 		border-top: 0px dotted black;
@@ -1103,49 +1077,52 @@ footer #logos img {
 		padding-top: 0%;
 		top: 0em;
 		left: 0em;
-	}		
+	}
 
 	footer #logos {
 		border-top: 1px solid black;
-		
 	}
-
 
 }
 
-
-@media screen and (min-width: 420px)  and (max-width : 520px){
+@media screen and (min-width: 420px) and (max-width : 520px) {
 	nav {
-		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
+		justify-content: center;
+		/* élements étirés sur l'ensemble de largeur  */
 	}
+
 	.Pageglobale header h4 {
 		font-size: 2.5vw;
-		top: 8.5em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
+		top: 8.5em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
 	}
-	
-	
+
 	.Pageglobale header h6 {
 		display: none;
 	}
 
-	
 	.Pageglobale header h1 {
-		top: 6em; /* décalage texte haut */
+		top: 6em;
+		/* décalage texte haut */
 		font-size: 4vw;
 	}
-	
+
 	nav .profile img {
-		width: 20px; /* Largeur image */
-		height: 20px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
+		width: 20px;
+		/* Largeur image */
+		height: 20px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
 	}
-	
-	
+
 	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
+		font-size: 10px;
+		/*Taille simplon 2022*/
 	}
-	
+
 	nav #menu {
 		display: none;
 	}
@@ -1154,33 +1131,29 @@ footer #logos img {
 		width: 20px;
 		height: 20px;
 	}
-	
-	.Pageglobale h1 { /* titre h1 de la page "pourquoi dev et CV */
-	font-size: 5vw;
+
+	.Pageglobale h1 {
+		/* titre h1 de la page "pourquoi dev et CV */
+		font-size: 5vw;
 	}
 
-
-
-	.Pageglobale .formationdev  { 
-	background-image: none;
-	
+	.Pageglobale .formationdev {
+		background-image: none;
 	}
-
-
 
 	.Pageglobale .formationdev #bordure1 {
 		height: auto;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure2 {
 		height: auto;
 		margin-top: 1em;
 		border-right: 0px dotted #636262;
 		border-left: 0px dotted #636262;
 	}
-	
+
 	.Pageglobale .formationdev #bordure3 {
 		height: auto;
 		margin-top: 1em;
@@ -1191,19 +1164,199 @@ footer #logos img {
 	.Pageglobale .formationdev h4 {
 		font-size: 3.5vw;
 	}
-	
-	
+
+	.Pageglobale .formationdev .projetpro {
+		font-size: 2vw;
+		max-width: max-content;
+	}
+
+	.Pageglobale .formationdev .atoutsetmotivations {
+		max-width: max-content;
+		font-size: 2vw;
+	}
+
+	.Pageglobale .formationdev .domainenumerique {
+		max-width: max-content;
+		font-size: 2vw;
+	}
+
+	.Pageglobale .formationdev {
+		justify-content: center;
+		border-bottom: 1px solid black;
+		padding-bottom: 5%;
+	}
+
+	.Pageglobale .cv {
+		justify-content: center;
+		height: auto;
+		max-width: max-content;
+		border-bottom: 1px solid black;
+		background-color: white;
+		padding-right: 5%;
+		padding-left: 2%;
+		padding-bottom: 5%;
+		background-image: none;
+	}
+
+	.Pageglobale .cv h4 {
+		font-size: 3vw;
+	}
+
+	.Pageglobale .cv #separation1 {
+		display: none;
+	}
+
+	.Pageglobale .cv #separation2 {
+		display: none;
+	}
+
+	.Pageglobale .cv #separation3 {
+		display: none;
+	}
+
+	.Pageglobale .cv .texteexperience {
+		font-size: 2vw;
+		list-style-type: none;
+		padding-right: 0%;
+	}
+
+	.Pageglobale .cv .texteformation {
+		font-size: 2vw;
+		padding-right: 0%;
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+
+	.Pageglobale .cv .textelogiciels {
+		font-size: 2vw;
+		padding-right: 0%;
+		margin-right: 20%;
+		margin-left: 20%;
+	}
+
+	.Pageglobale .cv .texteinterets {
+		font-size: 2vw;
+		padding-right: 0%;
+	}
+
+	.Pageglobale .contacts {
+		background-image: none;
+	}
+
+	.Pageglobale .contacts h1 {
+		text-align: left;
+		padding-bottom: 0%;
+		position: initial;
+	}
+
+	.Pageglobale .contacts .textecontacts {
+		position: initial;
+		font-size: 1.5vw;
+		color: black;
+		text-align: center;
+		border-top: 0px dotted black;
+		border-bottom: 0px dotted black;
+		padding-top: 0%;
+		top: 0em;
+		left: 0em;
+	}
+
+	footer #logos {
+		border-top: 1px solid black;
+
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 419px) {
+	nav {
+		justify-content: center;
+		/* élements étirés sur l'ensemble de largeur  */
+	}
+
+	.Pageglobale header h4 {
+		font-size: 2.5vw;
+		top: 9.8em;
+		/* décalage texte haut */
+		left: 24.4em;
+		/* décalage texte avec h1*/
+	}
+
+	.Pageglobale header h6 {
+		display: none;
+	}
+
+	.Pageglobale header h1 {
+		top: 6.8em;
+		/* décalage texte haut */
+		font-size: 4vw;
+	}
+
+	nav .profile img {
+		width: 20px;
+		/* Largeur image */
+		height: 20px;
+		/* hauteur image */
+		border-radius: 50%;
+		/* arrondir l'image */
+	}
+
+	nav #Simplon {
+		font-size: 10px;
+		/*Taille simplon 2022*/
+	}
+
+	nav #menu {
+		display: none;
+	}
+
+	footer #logos img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.Pageglobale h1 {
+		/* titre h1 de la page "pourquoi dev et CV */
+		font-size: 5vw;
+	}
+
+	.Pageglobale .formationdev {
+		background-image: none;
+	}
+
+	.Pageglobale .formationdev #bordure1 {
+		height: auto;
+		border-right: 0px dotted #636262;
+		border-left: 0px dotted #636262;
+	}
+
+	.Pageglobale .formationdev #bordure2 {
+		height: auto;
+		margin-top: 1em;
+		border-right: 0px dotted #636262;
+		border-left: 0px dotted #636262;
+	}
+
+	.Pageglobale .formationdev #bordure3 {
+		height: auto;
+		margin-top: 1em;
+		border-right: 0px dotted #636262;
+		border-left: 0px dotted #636262;
+	}
+
+	.Pageglobale .formationdev h4 {
+		font-size: 3.5vw;
+	}
+
 	.Pageglobale .formationdev .projetpro {
 		font-size: 2vw;
 		max-width: auto;
 	}
-	
+
 	.Pageglobale .formationdev .atoutsetmotivations {
 		max-width: auto;
 		font-size: 2vw;
 	}
-	
-	
+
 	.Pageglobale .formationdev .domainenumerique {
 		max-width: auto;
 		font-size: 2vw;
@@ -1215,11 +1368,10 @@ footer #logos img {
 		padding-bottom: 5%;
 	}
 
-
 	.Pageglobale .cv {
 		justify-content: center;
 		height: auto;
-		max-width: auto;
+		max-width: max-content;
 		border-bottom: 1px solid black;
 		background-color: white;
 		padding-right: 5%;
@@ -1227,11 +1379,10 @@ footer #logos img {
 		padding-bottom: 5%;
 		background-image: none;
 	}
-	
+
 	.Pageglobale .cv h4 {
 		font-size: 3vw;
 	}
-
 
 	.Pageglobale .cv #separation1 {
 		display: none;
@@ -1241,57 +1392,48 @@ footer #logos img {
 		display: none;
 	}
 
-
 	.Pageglobale .cv #separation3 {
 		display: none;
 	}
-
 
 	.Pageglobale .cv .texteexperience {
 		font-size: 2vw;
 		list-style-type: none;
 		padding-right: 0%;
-		
-		
 	}
-	
+
 	.Pageglobale .cv .texteformation {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 20%;
 		margin-left: 20%;
 	}
-	
-	
+
 	.Pageglobale .cv .textelogiciels {
 		font-size: 2vw;
 		padding-right: 0%;
 		margin-right: 20%;
 		margin-left: 20%;
 	}
-	
-	
+
 	.Pageglobale .cv .texteinterets {
 		font-size: 2vw;
 		padding-right: 0%;
 	}
-	
-	
 
 	.Pageglobale .contacts {
 		background-image: none;
-	}	
-	
+	}
+
 	.Pageglobale .contacts h1 {
-		text-align:left;
+		text-align: left;
 		padding-bottom: 0%;
 		position: initial;
-	} 
-	
-	
+	}
+
 	.Pageglobale .contacts .textecontacts {
 		position: initial;
-		font-size: 1.5vw; 
+		font-size: 1.5vw;
 		color: black;
 		text-align: center;
 		border-top: 0px dotted black;
@@ -1299,209 +1441,11 @@ footer #logos img {
 		padding-top: 0%;
 		top: 0em;
 		left: 0em;
-	}		
+	}
 
 	footer #logos {
 		border-top: 1px solid black;
-		
 	}
 
 
 }
-
-
-@media screen and (min-width: 320px)  and (max-width: 419px){
-	nav {
-		justify-content: center; /* élements étirés sur l'ensemble de largeur  */
-	}
-	.Pageglobale header h4 {
-		font-size: 2.5vw;
-		top: 9.8em; /* décalage texte haut */
-		left: 24.4em; /* décalage texte avec h1*/
-	}
-	
-	
-	.Pageglobale header h6 {
-		display: none;
-	}
-
-	
-	.Pageglobale header h1 {
-		top: 6.8em; /* décalage texte haut */
-		font-size: 4vw;
-	}
-	
-	nav .profile img {
-		width: 20px; /* Largeur image */
-		height: 20px; /* hauteur image */
-		border-radius: 50%; /* arrondir l'image */
-	}
-	
-	
-	nav #Simplon {
-		font-size: 10px; /*Taille simplon 2022*/
-	}
-	
-	nav #menu {
-		display: none;
-	}
-
-	footer #logos img {
-		width: 20px;
-		height: 20px;
-	}
-	
-	.Pageglobale h1 { /* titre h1 de la page "pourquoi dev et CV */
-	font-size: 5vw;
-	}
-
-
-
-	.Pageglobale .formationdev  { 
-	background-image: none;
-	
-	}
-
-
-
-	.Pageglobale .formationdev #bordure1 {
-		height: auto;
-		border-right: 0px dotted #636262;
-		border-left: 0px dotted #636262;
-	}
-	
-	.Pageglobale .formationdev #bordure2 {
-		height: auto;
-		margin-top: 1em;
-		border-right: 0px dotted #636262;
-		border-left: 0px dotted #636262;
-	}
-	
-	.Pageglobale .formationdev #bordure3 {
-		height: auto;
-		margin-top: 1em;
-		border-right: 0px dotted #636262;
-		border-left: 0px dotted #636262;
-	}
-
-	.Pageglobale .formationdev h4 {
-		font-size: 3.5vw;
-	}
-	
-	
-	.Pageglobale .formationdev .projetpro {
-		font-size: 2vw;
-		max-width: auto;
-	}
-	
-	.Pageglobale .formationdev .atoutsetmotivations {
-		max-width: auto;
-		font-size: 2vw;
-	}
-	
-	
-	.Pageglobale .formationdev .domainenumerique {
-		max-width: auto;
-		font-size: 2vw;
-	}
-
-	.Pageglobale .formationdev {
-		justify-content: center;
-		border-bottom: 1px solid black;
-		padding-bottom: 5%;
-	}
-
-
-	.Pageglobale .cv {
-		justify-content: center;
-		height: auto;
-		max-width: auto;
-		border-bottom: 1px solid black;
-		background-color: white;
-		padding-right: 5%;
-		padding-left: 2%;
-		padding-bottom: 5%;
-		background-image: none;
-	}
-	
-	.Pageglobale .cv h4 {
-		font-size: 3vw;
-	}
-
-
-	.Pageglobale .cv #separation1 {
-		display: none;
-	}
-
-	.Pageglobale .cv #separation2 {
-		display: none;
-	}
-
-
-	.Pageglobale .cv #separation3 {
-		display: none;
-	}
-
-
-	.Pageglobale .cv .texteexperience {
-		font-size: 2vw;
-		list-style-type: none;
-		padding-right: 0%;
-		
-		
-	}
-	
-	.Pageglobale .cv .texteformation {
-		font-size: 2vw;
-		padding-right: 0%;
-		margin-right: 20%;
-		margin-left: 20%;
-	}
-	
-	
-	.Pageglobale .cv .textelogiciels {
-		font-size: 2vw;
-		padding-right: 0%;
-		margin-right: 20%;
-		margin-left: 20%;
-	}
-	
-	
-	.Pageglobale .cv .texteinterets {
-		font-size: 2vw;
-		padding-right: 0%;
-	}
-	
-	
-
-	.Pageglobale .contacts {
-		background-image: none;
-	}	
-	
-	.Pageglobale .contacts h1 {
-		text-align:left;
-		padding-bottom: 0%;
-		position: initial;
-	} 
-	
-	
-	.Pageglobale .contacts .textecontacts {
-		position: initial;
-		font-size: 1.5vw; 
-		color: black;
-		text-align: center;
-		border-top: 0px dotted black;
-		border-bottom: 0px dotted black;
-		padding-top: 0%;
-		top: 0em;
-		left: 0em;
-	}		
-
-	footer #logos {
-		border-top: 1px solid black;
-		
-	}
-
-
-}
-
