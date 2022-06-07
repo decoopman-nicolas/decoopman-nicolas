@@ -391,7 +391,7 @@ nav ul li:hover {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.5vw;
 	text-transform: uppercase;
-	text-align: top;
+	text-align: center;
 }
 
 .Pageglobale .cv .texteexperience {
@@ -1349,16 +1349,16 @@ footer #logos img {
 
 	.Pageglobale .formationdev .projetpro {
 		font-size: 2vw;
-		max-width: auto;
+		max-width: max-content;
 	}
 
 	.Pageglobale .formationdev .atoutsetmotivations {
-		max-width: auto;
+		max-width: max-content;
 		font-size: 2vw;
 	}
 
 	.Pageglobale .formationdev .domainenumerique {
-		max-width: auto;
+		max-width: max-content;
 		font-size: 2vw;
 	}
 
